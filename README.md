@@ -3,6 +3,8 @@
 **Bug with symlink destination in npm < 7**
 
 ```
+$ npm ci
+
 npm ERR! code ENOENT
 npm ERR! syscall open
 npm ERR! path ***/package.json
