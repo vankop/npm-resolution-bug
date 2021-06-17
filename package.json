@@ -1,0 +1,23 @@
+{
+  "name": "npm-resolution-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vankop/npm-resolution-bug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vankop/npm-resolution-bug/issues"
+  },
+  "homepage": "https://github.com/vankop/npm-resolution-bug#readme",
+  "dependencies": {
+    "@fe/pack1": "file:packages/pack1",
+    "@fe/pack2": "file:packages/pack2-module"
+  }
+}
